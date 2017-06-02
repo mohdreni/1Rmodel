@@ -1,0 +1,16 @@
+cat_outlook,cat_temperature,cat_humidity,cat_windy,OutCome
+Sunny,hot,high,false,no
+Sunny,hot,high,true,no
+Overcast,hot,high,false,yes
+Rainy,mild,high,false,yes
+Rainy,cool,normal,false,yes
+Rainy,cool,normal,true,no
+Overcast,cool,normal,true,yes
+Sunny,mild,high,false,no
+Sunny,cool,normal,false,yes
+Rainy,mild,normal,false,yes
+Sunny,mild,normal,true,yes
+Overcast,mild,high,true,yes
+Overcast,hot,normal,false,yes
+Rainy,mild,high,true,no
+
