@@ -1,0 +1,17 @@
+cat_outlook,num_temperature,num_humidity,cat_windy,OutCome
+Sunny,85,85,false,no
+Sunny,80,90,true,no
+Overcast,83,86,false,yes
+Rainy,70,96,false,yes
+Rainy,68,80,false,yes
+Rainy,65,70,true,no
+Overcast,64,65,true,yes
+Sunny,72,95,false,no
+Sunny,69,70,false,yes
+Rainy,75,80,false,yes
+Sunny,75,70,true,yes
+Overcast,72,90,true,yes
+Overcast,81,75,false,yes
+Rainy,71,91,true,no
+
+
