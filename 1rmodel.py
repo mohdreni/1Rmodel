@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 import copy
 import os
-"""This module will calculate accurate attribute based on the 1R model .build_model() method will calculate 
-accuracy of each attribute (column )of training data set and make the optimal model . live() method will use
+"""This module will calculate accurate attribute based on the 1R model build_model() method will calculate 
+accuracy of each attribute (column )of training data set and make the optimal model live() method will use
 derived optimal model on the testing data .
 """
-
+#this method will process numerical attribute
 def num_attribute_accuracy(attrname,out_name,data1):
     group_partition_size=3
     num_data=data1[[attrname,out_name]]
@@ -228,6 +228,6 @@ def live(p_livedatafile,p_optimal_rule):
     livedata.close()
     outlivedata.close()
 
-optimal_rule=build_model('1rdata.csv')
-print(optimal_rule)
-live('1rdata_test.csv',optimal_rule)
+#optimal_rule=build_model('1rdata.csv')
+#print(optimal_rule)
+#live('1rdata_test.csv',optimal_rule)
